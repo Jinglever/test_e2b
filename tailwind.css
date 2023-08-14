@@ -1,0 +1,43 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css';
+
+/* Dark theme colors */
+:root {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  --tw-border-opacity: 1;
+  --tw-bg-color: 26, 32, 44;
+  --tw-text-color: 255, 255, 255;
+  --tw-border-color: 59, 130, 246;
+}
+
+body {
+  background-color: rgba(var(--tw-bg-color), var(--tw-bg-opacity));
+  color: rgba(var(--tw-text-color), var(--tw-text-opacity));
+}
+
+/* Border color */
+.border-t {
+  border-top-color: rgba(var(--tw-border-color), var(--tw-border-opacity));
+}
+
+.border-r {
+  border-right-color: rgba(var(--tw-border-color), var(--tw-border-opacity));
+}
+
+.border-b {
+  border-bottom-color: rgba(var(--tw-border-color), var(--tw-border-opacity));
+}
+
+.border-l {
+  border-left-color: rgba(var(--tw-border-color), var(--tw-border-opacity));
+}
+
+/* Text color */
+.text-white {
+  color: rgba(var(--tw-text-color), var(--tw-text-opacity)) !important;
+}
+
+/* Background color */
+.bg-dark {
+  background-color: rgba(var(--tw-bg-color), var(--tw-bg-opacity)) !important;
+}
